@@ -24,7 +24,7 @@ class App extends Component {
         return (
             <div className="App">
 
-                <h1 className="name">Hi, my name is Tess</h1>
+                <h1 className="name">Hi, my name is Tess!</h1>
                 <h3>I'm a developer</h3>
 
                 <h4>Here are a few of my projects</h4>
