@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
 }
 
 .App-logo {
@@ -22,12 +26,20 @@
 .App-link {
   color: #61dafb;
 }
+.name {
+  color: cornflowerblue
+}
+
+.project {
+  border: 1px solid black;
+  width: 30vw;
+}
 
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(3deg);
   }
 }
