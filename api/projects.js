@@ -1,15 +1,3 @@
-// module.exports = (req, res) => {
-//     let projectsData = [
-//         {
-//             name: 'Festival Attendee Mapper',
-//             html_url: 'http://google.com',
-//             description: 'Accidentally made google'
-//         }
-//     ];
-
-//     res.json(projectsData);    
-// }
-
 const fetch = require('node-fetch');
 
 const githubRepoUrl = 'https://api.github.com/users/tess-meyer/repos';
